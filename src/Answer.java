@@ -51,13 +51,13 @@ public class Answer {
         }
     }
     Answer(int x, String str, String str2, String str3, String str4){
-        options = new ArrayList<>(3);
+        options = new ArrayList<>(4);
         numOfCorrectOptions = x;
         options.add(str);
         options.add(str2);
         options.add(str3);
         options.add(str4);
-        size = 3;
+        size = 4;
         if(x>1){
             correctOptions = new ArrayList<>(x);
             for(int i=0; i<x; i++){
@@ -71,7 +71,7 @@ public class Answer {
     List<String> getOptions(){ return options; }
     public String getCorrectOption(){ return correctOption;}
     public List<String> getCorrectOptions() { return correctOptions; }
-    public int getNumOfOptions(){ return numOfCorrectOptions; }
+    public int getNumOfCorrectOptions(){ return numOfCorrectOptions; }
     public String getOption(int index){ return options.get(index); }
     public int getCorrectOptionIndex() { return correctOptionIndex; }
     //public int getCorrectOptionIndex(int index) { return correctOptionIndex; }

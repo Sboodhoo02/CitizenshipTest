@@ -1,36 +1,49 @@
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 class Question{
     private String quest;
     private Answer options;
-    private int numOfCorrectAnswers;
+    private int numOfCorrectOptions;
+    private List<String> hint = new ArrayList<>();
 
     Question(String q, String a){
         this.quest = q;
         this.options = new Answer(a);
-        this.numOfCorrectAnswers = 1;
+        this.numOfCorrectOptions = 1;
     }
     Question(int x, String q, String a, String b){
         this.quest = q;
         this.options = new Answer(x, a, b);
-        this.numOfCorrectAnswers = x;
+        this.numOfCorrectOptions = x;
     }
     Question(int x, String q, String a, String b, String c){
         this.quest = q;
         this.options = new Answer(x, a, b, c);
-        this.numOfCorrectAnswers = x;
+        this.numOfCorrectOptions = x;
     }
     Question(int x, String q, String a, String b, String c, String d){
         this.quest = q;
         this.options = new Answer(x, a, b, c, d);
-        this.numOfCorrectAnswers = x;
+        this.numOfCorrectOptions = x;
     }
 
+    public void addHint(String... hints){
+        Collections.addAll(hint, hints);
+    }
+    public List<String> getHint(){ return hint; }
     public String getQuest(){ return quest; }
     public Answer getOptions(){ return options; }
-    public boolean hasMultipleAnswers(){ return numOfCorrectAnswers>1; }
-    public String getSpecificOption(int index){ return options.getOption(index);}
+    public int getNumOfCorrectOptions(){ return numOfCorrectOptions; }
+    public boolean hasMultipleAnswers(){ return numOfCorrectOptions>1; }
+    public String getSpecificOption(int index){ return options.getOption(index); }
     public String getCorrectOption(){ return options.getCorrectOption(); }
+    public List<String> getCorrectOptions(){ return options.getCorrectOptions(); }
+    public void shuffleOptions(){
+        Collections.shuffle(options.getOptions());
+    }
+
 
     public void print(){
         System.out.println(getQuest());
@@ -40,7 +53,7 @@ class Question{
         System.out.println(getQuest());
         options.print();
     }
-    public void printHint(){ options.printCorrectAnswers();}
+    public void printHint(){ System.out.println(hint);}
     public String toString(){
         StringBuilder output = new StringBuilder();
         output.append(quest);

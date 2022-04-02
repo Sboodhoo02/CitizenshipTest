@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Exam {
@@ -17,12 +18,28 @@ public class Exam {
     public List<Question> getExamQuestions() { return examQuestions; }
     public void addQuestion(Question q){
         examQuestions.add(q);
-        size++;
+        this.size++;
     }
     public Question getExamQuestion(int index){ return examQuestions.get(index); }
+    public int getSize(){ return size; }
 
+    public void shuffleExamQuestions(){
+        // shuffle the questions
+        Collections.shuffle(examQuestions);
+
+        // shuffle the options for each question
+        for(int i=0; i<size; i++){
+            examQuestions.get(i).shuffleOptions();
+        }
+    }
     public void printExamQuestions(){
         for(int i=0; i<size; i++){
+            System.out.println(i+1 + ") " + examQuestions.get(i).getQuest());
+        }
+        System.out.println();
+    }
+    public void printExamQuestions(int quantity){
+        for(int i=0; i<quantity; i++){
             System.out.println(i+1 + ") " + examQuestions.get(i).getQuest());
         }
         System.out.println();
@@ -36,7 +53,7 @@ public class Exam {
     }
     public void printExamAndSolutions(){
         for(int i=0; i<size; i++){
-            if(examQuestions.get(i).getOptions().getNumOfOptions() > 1){
+            if(examQuestions.get(i).getOptions().getNumOfCorrectOptions() > 1){
                 System.out.print(i+1 + ") " + "Solution--> " + examQuestions.get(i).getQuest() + " ");
                 examQuestions.get(i).getOptions().printCorrectAnswers();
             }
@@ -53,9 +70,4 @@ public class Exam {
         System.out.print(") ");
         System.out.println(examQuestions.get(index-1));
     }
-    // public void administerExam(){
-    //     for(int i=0; i<size; i++){
-
-    //     }
-    // }
 }
