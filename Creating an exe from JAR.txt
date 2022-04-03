@@ -1,0 +1,25 @@
+1). Compile your java code, generating all of the program's class files.
+javac Answer.java Exam.java Question.java Ztest.java
+
+2). Create a manifest file containing the following 2 lines:
+Manifest-Version: 1.0
+Main-Class: name of class containing main
+
+The name of the file should end with the .mf suffix. It is important that the file ends with a blank line.
+
+3). To create the JAR, type the following command:
+jar cmf manifest-file jar-file input-files
+jar cmf manifest.mf Citizenship.jar Answer.class Answer.java Exam.class Exam.java Question.class Question.java Ztest.class Ztest.java
+
+The input-files must include any class files, images, sounds, etc. that your program uses. 
+Optionally, you can include the program's .java files in the JAR. 
+See below for adding directories ot the JAR.
+
+4). To view the contents of the JAR, type:
+jar tf jar-file
+jar tf Citizenship.jar
+
+
+5). Execute the application from the command line by typing:
+java -jar jar-file
+java -jar Citizenship.jar

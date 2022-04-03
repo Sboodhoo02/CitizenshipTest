@@ -121,7 +121,7 @@ public class Ztest {
         Question q79 = new Question(1, "Who was President during World War I?", "Woodrow Wilson", "Abraham Lincoln", "George Washington");
         Question q80 = new Question(1, "Who was President during the Great Depression and World War II?", "Franklin Roosevelt", "Abraham Lincoln", "George Washington");
         Question q81 = new Question(3, "Who did the United States fight in World War II?(\nSelect all that apply)", "Japan", "Germany", "Italy");
-        Question q82 = new Question(1, " Before he was President, Eisenhower was a general. What war was he in?", "World War II", "Cold War", "Civil War");
+        Question q82 = new Question(1, "Before he was President, Eisenhower was a general. What war was he in?", "World War II", "Cold War", "Civil War");
         Question q83 = new Question(1, "During the Cold War, what was the main concern of the United States?", "Communism", "Money", "Russian intel");
         Question q84 = new Question(1, "What movement tried to end racial discrimination?", "civil rights (movement)", "women's movement");
         Question q85 = new Question(1, "What did Martin Luther King, Jr. do?", "fought for civil rights", "fought for presidency", "fought for the country");
@@ -132,7 +132,7 @@ public class Ztest {
         // Declaring Questions for
         Question q88 = new Question(1, "Name one of the two longest rivers in the United States.", "Mississippi", "East river");
         Question q89 = new Question(1, "What ocean is on the West Coast of the United States?", "Pacific Ocean", "Atlantic Ocean", "Indian", "Arctic");
-        Question q90 = new Question(1, "What ocean is on the East Coast of the United States?", "Pacific Ocean", "Atlantic Ocean", "Indian", "Arctic");
+        Question q90 = new Question(1, "What ocean is on the East Coast of the United States?", "Atlantic Ocean", "Pacific Ocean", "Indian", "Arctic");
         Question q91 = new Question(1, "Name one U.S. territory.", "Puerto Rico", "Mexico", "Alaska");
         Question q92 = new Question(1, "Name one state that borders Canada.", "New York", "New Jersey", "Tennessee");
         Question q93 = new Question(1, "Name one state that borders Mexico", "Texas", "New York", "Georgia");
@@ -529,7 +529,7 @@ public class Ztest {
     public static void menu(){
         System.out.println("**********************MENU************************");
         System.out.println("*\t\t\t\t\t\t *");
-        System.out.println("* A) Preview all 100 questions ONLY\t\t *");
+        System.out.println("* A) Preview all 100 questions\t\t\t *");
         System.out.println("* B) Preview 10 random questions ONLY\t\t *");
         System.out.println("* C) Practice 10 random questions\t\t *");
         System.out.println("* D) TBA\t\t\t\t\t *");
@@ -549,8 +549,28 @@ public class Ztest {
         while(!(UserInput.equals("e"))){
             switch (UserInput) {
                 case "a":
-                        Exam e = exams.get(5);
-                        e.printExamQuestions();
+                    Exam e = exams.get(5);
+                    e.printExamQuestions();
+                    System.out.print("What question do you want the answer(s) for? ");
+                    qHolder = abc.nextInt();
+                    if(qHolder == -1) break;
+                    Question q = e.getExamQuestion(qHolder-1);
+                    //System.out.println(gradeQuestion(s, q));
+                    while(qHolder > 0 && qHolder < 101){
+                        if(q.hasMultipleAnswers()){
+                            System.out.println(q.getCorrectOptions());
+                            System.out.print("What question do you want the answer(s) for? ");
+                            qHolder = abc.nextInt();
+                            if(qHolder == -1) break;
+                            q = e.getExamQuestion(qHolder-1);
+                        }else{
+                            System.out.println(q.getCorrectOption());
+                            System.out.print("What question do you want the answer(s) for? ");
+                            qHolder = abc.nextInt();
+                            if(qHolder == -1) break;
+                            q = e.getExamQuestion(qHolder-1);
+                        }
+                    }
                     break;
                 case "b":
                     e = exams.get(5);
@@ -559,7 +579,7 @@ public class Ztest {
                     System.out.print("What question do you want the answer(s) for? ");
                     qHolder = abc.nextInt();
                     if(qHolder == -1) break;
-                    Question q = e.getExamQuestion(qHolder-1);
+                    q = e.getExamQuestion(qHolder-1);
                     //System.out.println(gradeQuestion(s, q));
                     while(qHolder > 0 && qHolder < 11){
                         if(q.hasMultipleAnswers()){
