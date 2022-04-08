@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -7,10 +10,26 @@ public class Ztest {
     private static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
 
+        String path = "/Users/suren/Desktop/CitizenshipTest/Questions.txt";
         List<Exam> exams = new ArrayList<>();
-        prePreparation(exams);
-        begin(sc, exams);
+
+
+        createQuestions(path);
+        //prePreparation(exams);
+        //begin(sc, exams);
     
+    }
+    public static void createQuestions(String p){
+        String line = "";
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(p));
+            while((line = br.readLine()) != null){
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
     public static void prePreparation(List<Exam> exams){
         //Declaring Exams
