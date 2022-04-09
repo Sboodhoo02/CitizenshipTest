@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.module.Configuration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -10,16 +11,26 @@ public class Ztest {
     private static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
 
-        String path = "/Users/suren/Desktop/CitizenshipTest/Questions.txt";
+        //String path = "/Users/suren/Desktop/CitizenshipTest/Questions.txt";
+        String path = "/Users/Think/Desktop/CitizenshipTest/Questions.txt";
         List<Exam> exams = new ArrayList<>();
 
 
-        createQuestions(path, exams);
+        // readFromFile(path, exams);
+        // Exam e1 = exams.get(0);
+        // administerExam(e1, sc);
         //prePreparation(exams);
         //begin(sc, exams);
+        // Exam e = exams.get(5);
+        // Question q;
+        // for(int i=0; i<100; i++){
+        //     q = e.getExamQuestion(i);
+        //     System.out.print(q.getNumOfCorrectOptions() + "," +q.getQuest() + q.getOptions2());
+        //     System.out.println();
+        // }
     
     }
-    public static void createQuestions(String p, List<Exam> exams){
+    public static void readFromFile(String p, List<Exam> exams){
         Exam e = new Exam(100);
         exams.add(e);
         Question q;
@@ -40,10 +51,16 @@ public class Ztest {
                 System.out.println("Num of Params: " + values.length);
 
                 // adjustment for integer casting
-                System.out.println(x-48);
+                x -= 48;
+                System.out.println(x);
                 // for(int i=1; i<values.length; i++){
                 //     System.out.println(values[i]);
                 // }
+                // System.out.println(values[1]);
+                // System.out.println(values[2]);
+                // System.out.println(values[3]);
+                // System.out.println(values[4]);
+                // System.out.println(values[5]);
                 switch (values.length) {
                     case 6:
                         q = new Question(x, values[1], values[2], values[3], values[4], values[5]);
