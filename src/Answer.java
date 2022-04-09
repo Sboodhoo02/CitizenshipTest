@@ -83,6 +83,14 @@ public class Answer {
             System.out.println(options.get(i));
         }
     }
+    public String getOptions2(){
+        StringBuilder sb = new StringBuilder();
+        for(int i=0; i<size; i++){
+            sb.append(",");
+            sb.append(options.get(i));
+        }
+        return sb.toString();
+    }
     public void print(){
         // place holder for ABCD to ascii
         int a = 65;
