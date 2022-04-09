@@ -35,6 +35,7 @@ class Question{
     public List<String> getHint(){ return hint; }
     public String getQuest(){ return quest; }
     public Answer getOptions(){ return options; }
+    public String getOptions2(){ return options.getOptions2(); };
     public int getNumOfCorrectOptions(){ return numOfCorrectOptions; }
     public boolean hasMultipleAnswers(){ return numOfCorrectOptions>1; }
     public String getSpecificOption(int index){ return options.getOption(index); }
