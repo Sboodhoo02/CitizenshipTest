@@ -14,21 +14,58 @@ public class Ztest {
         List<Exam> exams = new ArrayList<>();
 
 
-        createQuestions(path);
+        createQuestions(path, exams);
         //prePreparation(exams);
         //begin(sc, exams);
     
     }
-    public static void createQuestions(String p){
+    public static void createQuestions(String p, List<Exam> exams){
+        Exam e = new Exam(100);
+        exams.add(e);
+        Question q;
+        int x;
+        String [] values = new String[] {""};
         String line = "";
         try{
             BufferedReader br = new BufferedReader(new FileReader(p));
+
+            // parse each line
             while((line = br.readLine()) != null){
-                System.out.println(line);
+                //line = line.repl(" ", "");
+                
+                values = line.split(",");
+
+                // get char from string and case to int
+                x = (int) values[0].charAt(0);
+                System.out.println("Num of Params: " + values.length);
+
+                // adjustment for integer casting
+                System.out.println(x-48);
+                // for(int i=1; i<values.length; i++){
+                //     System.out.println(values[i]);
+                // }
+                switch (values.length) {
+                    case 6:
+                        q = new Question(x, values[1], values[2], values[3], values[4], values[5]);
+                        e.addQuestion(q);
+                        break;
+                    case 5:
+                        q = new Question(x, values[1], values[2], values[3], values[4]);
+                        e.addQuestion(q);
+                        break;
+                    case 4:
+                        q = new Question(x, values[1], values[2], values[3]);
+                        e.addQuestion(q);
+                        break;
+                    default:
+                        break;
+                }
+                System.out.println();
             }
-        } catch (IOException e) {
+            br.close();
+        } catch (IOException e1) {
             // TODO Auto-generated catch block
-            e.printStackTrace();
+            e1.printStackTrace();
         }
     }
     public static void prePreparation(List<Exam> exams){
