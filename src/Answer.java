@@ -86,7 +86,7 @@ public class Answer {
     public String getOptions2(){
         StringBuilder sb = new StringBuilder();
         for(int i=0; i<size; i++){
-            sb.append(",");
+            sb.append("|");
             sb.append(options.get(i));
         }
         return sb.toString();
