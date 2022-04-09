@@ -1,101 +1,100 @@
-1,What is the supreme law of the land?,The Constution,The President,You must not kill
-1,What does the Constution do?,Sets up the Government,Protect the Government,Safeguard the President
-1,The idea of self-government is in the first three words of the Constitution. What are these words?,We the people,We are one nation,One love
-1,What is an amendment?,A change (to the Constitution),An overhaul (to the Constitution)
-1,What do we call the first ten amendments to the Constitution?,The Bill of Rights,The 10 commandments
-1,What is one right or freedom from the First Amendment?,speech,Purge,Chop up
-1,How many amendments does the Constitution have?,twenty-seven (27),twenty-five (25),twenty-six (26)
-1,What did the Declaration of Independence do?,Announced our Independence (from Great Britain),Announced our Dominance (from Great Britain),Do not choose this option!
-2,What are 2 rights in the Declaration of Indpendence?,Life,Liberty,Luxury
-1,What is freedom of religion?,You can practice any Religion, or not practice a Religion,You must practice a Religion,The right to berate other Religions
-1,What is the economic system in the United States?,Capitalist economy,Socialist economy,Budget economy
-1,What is the 'rule of law'?,Everyone must follow the law,We make our own rules,You can choose to follow the law
-1,Name one branch or part of the government.,Legislative,Prejudical,The Ambassadors
-1,What stops one branch of government from becoming too powerful?,checks & balances,The Goveernment cannot be stopped,Guns
-1,Who is in charge of the executive branch?,The President,The Vice President,The Military
-1,Who makes federal laws?,Congress,The President,The Military,Donald Trump
-2,What are the two parts of the U.S. Congress?,The Senate,The House (of Representatives),Parliment
-1,How many U.S. Senators are there?,One hundred (100),Fifty (50),Sixty nine (69),Four hundred & twenty (420)
-1,We elect a U.S. Senator for how many years?,six (6),seven (7),eight(8),five(5)
-1,Who is one of your state's U.S. Senators now?,Kirsten Gillibrand,Adam Sandler,Snoop Dogg,2pac
-1,The House of Representatives has how many voting members?,four hundred thirty-five (435),five hundred thirty-four (534),four hundred fifty-three (453)
-1,We elect a U.S. Representative for how many years?,two (2),one (1),three (3),four (4)
-1,Name your U.S. Representative.,TO DO,TBA
-1,Who does a U.S. Senator represent?,all people of the state,all rich people in NY,Business owners
-1,Why do some states have more Representatives than other states?,(because of) the state's population,(because) some states have more money,(because) some states have more rich people
-1,We elect a President for how many years?,four (4),five (5),three (3),N/A
-1,In what month do we vote for President?,November,December,January,February
-1,What is the name of the President of the United States now?,Joe Biden,Donald Trump,Barack Obama,John Cena
-1,What is the name of the Vice President of the United States now?,Kamala Harris,Hilary Clinton,Donald Trump,Kathy Hochul
-1,If the President can no longer serve, who becomes President?,The Vice President,A random US senator,The Mayor of NY
-1,If both the President and the Vice President can no longer serve, who becomes President?,The Speaker of the House,The Chief of Military,No one
-1,Who is the Commander in Chief of the military?,The President,The Vice President,Donald Trump
-1,Who signs bills to become laws?,The President,The Vice President,Donald Trump
-1,Who vetoes bills?,The President,The Vice President,Donald Trump
-1,What does the President's Cabinet do?,Advises the President,Schedule meetings for the President,Tell him what to do
-2,What are two Cabinet-level positions?,Attorney General,Vice President,Opposition leader,Speaker
-1,What does the judicial branch do?,Reviews laws,write laws
-1,What is the highest court in the United States?,The Supreme Court,The High Court,The Magistrate's Court
-1,How many justices are on the Supreme Court?,nine (9),ten (10),eight (8),seven (7)
-1,Who is the Chief Justice of the United States now?,John Roberts,John Cena,John Adams,Jane Doe
-1,Under our Constitution, some powers belong to the federal government. What is one power of the federal government?,to print money,to raise gas prices,to raise taxes
-1,Under our Constitution, some powers belong to the states. What is one power of the states?,give a driver's license,Raise the minimum wage,Provide money for the people
-1,Who is the Governor of your state now?,Kathy Hochul,Hilary Clinton,Donald Trump,Kamala Harris
-1,What is the capital of your state?,Albany,Washington DC,Manhattan
-2,What are the two major political parties in the United States?,Democratic,Republican,PPP/C,PNC/R
-1,What is the political party of the President now?,Democratic,Republican,PPP/C,PNC/R
-1,What is the name of the Speaker of the House of Representatives now?,Nancy Pelosi,Donald Trump,Kathy Hochul
-1,There are four amendments to the Constitution about who can vote. Describe one of them.,Any citizen can vote. (Women and men can vote.),You must pay to vote,You can vote at any age
-1,What is one responsibility that is only for United States citizens?,vote in a federal election,serve in the military,pay taxes
-1,Name one right only for United States citizens.,vote in a federal election,paying taxes,religion
-2,What are two rights of everyone living in the United States?,freedom of speech,freedom of religion,tax evasion,robbing & stealing
-1,What do we show loyalty to when we say the Pledge of Allegiance?,the United States,the President,the Government
-1,What is one promise you make when you become a United States citizen?,obey the laws of the United States,avoid paying taxes,work very hard
-1,How old do citizens have to be to vote for President?,eighteen (18) and older,twenty-one (21) and older,sixty-five (65) and older
-2,What are two ways that Americans can participate in their democracy?,vote,join a political party,spend money,work hard
-1,When is the last day you can send in federal income tax forms?,April 15,January 30,March 4
-1,When must all men register for the Selective Service?,at age eighteen (18),at age twenty-one (21),Men do not HAVE to register for the Selective Service
-1,What is one reason colonists came to America?,freedom,money,gold
-1,Who lived in America before the Europeans arrived?,American Indians,Mexicans,Portugeuse
-1,What group of people was taken to America and sold as slaves?,Africans,Mexicans,Guyanese,Brazilians
-1,Why did the colonists fight the British?,because of high taxes (taxation without representation),Because they wanted to,Because the British wanted money
-1,Who wrote the Declaration of Independence?,Thomas Jefferson,George Washington,Vince McMahon,Kanye West
-1,When was the Declaration of Independence adopted?,July 4, 1776,July 4, 1767,July 4, 1677
-3,There were 13 original states. Name three.,New York,New Jersey,Connecticut,Texas
-1,What happened at the Constitutional Convention?,The Constitution was written,A Party was celebrated,The Constitution was destroyed
-1,When was the Constitution written?,1787,1966,1777
-1,The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.,John Jay,Chris Rock,Kevin Hart
-1,What is one thing Benjamin Franklin is famous for?,U.S. diplomat,World's richest person,Inventing electricity
-1,Who is the 'Father of Our Country'?,George Washingtion,George Bush,Abraham Lincoln
-1,Who was the first President?,George Washingtion,George Bush,Abraham Lincoln
-1,What territory did the United States buy from France in 1803?,Louisiana,Georgia,Texas
-1,Name one war fought by the United States in the 1800s.,Civil War,Cold War,World War II
-1,Name the U.S. war between the North and the South.,Civil War,Cold War,World War II
-1,Name one problem that led to the Civil War.,Slavery,Money,Marriage
-1,What was one important thing that Abraham Lincoln did?,freed the slaves (Emancipation Proclamation),Lowered tax rates,Raised the minimum wage
-1,What did the Emancipation Proclamation do?,Freed the slaved,Lowered tax rates,Raised the minimum wage
-1,What did Susan B. Anthony do?,Fought for women's rights,Fight for higher wages,Freed the slaves
-1,Name one war fought by the United States in the 1900s.,World War I,Cold War,Japanese War
-1,Who was President during World War I?,Woodrow Wilson,Abraham Lincoln,George Washington
-1,Who was President during the Great Depression and World War II?,Franklin Roosevelt,Abraham Lincoln,George Washington
-3,Who did the United States fight in World War II?(
-Select all that apply),Japan,Germany,Italy
-1,Before he was President, Eisenhower was a general. What war was he in?,World War II,Cold War,Civil War
-1,During the Cold War, what was the main concern of the United States?,Communism,Money,Russian intel
-1,What movement tried to end racial discrimination?,civil rights (movement),women's movement
-1,What did Martin Luther King, Jr. do?,fought for civil rights,fought for presidency,fought for the country
-1,What major event happened on September 11, 2001, in the United States?,Terrorist attacked the United States,Russia attacked the U.S.,Afghanistan attacked the U.S.
-1,Name one American Indian tribe in the United States.,Arawak,Jew,Buddhist
-1,Name one of the two longest rivers in the United States.,Mississippi,East river
-1,What ocean is on the West Coast of the United States?,Pacific Ocean,Atlantic Ocean,Indian,Arctic
-1,What ocean is on the East Coast of the United States?,Atlantic Ocean,Pacific Ocean,Indian,Arctic
-1,Name one U.S. territory.,Puerto Rico,Mexico,Alaska
-1,Name one state that borders Canada.,New York,New Jersey,Tennessee
-1,Name one state that borders Mexico,Texas,New York,Georgia
-1,What is the capital of the United States?,Washington, D.C,Albany,Manhattan
-1,Where is the Statue of Liberty?,New York,Long Island,Upstate New York
-1,Why does the flag have 13 stripes?,because there were 13 original colonies,because there were 13 original states,because there were 13 original cities
-1,Why does the flag have 50 stars?,because each star represents a state,because the U.S likes the number 50
-1,What is the name of the national anthem?,The Star-Sprangled Banner,The-Sprangled Star Banner
-1,When do we celebrate Independence Day?,July 4,April 1,September 11
-2,Name two national U.S. holidays.,Memorial Day,Thanksgiving,April Fools
+1|What is the supreme law of the land?|The Constution|The President|You must not kill
+1|What does the Constution do?|Sets up the Government|Protect the Government|Safeguard the President
+1|The idea of self-government is in the first three words of the Constitution. What are these words?|We the people|We are one nation|One love
+1|What is an amendment?|A change (to the Constitution)|An overhaul (to the Constitution)
+1|What do we call the first ten amendments to the Constitution?|The Bill of Rights|The 10 commandments
+1|What is one right or freedom from the First Amendment?|speech|Purge|Chop up
+1|How many amendments does the Constitution have?|twenty-seven (27)|twenty-five (25)|twenty-six (26)
+1|What did the Declaration of Independence do?|Announced our Independence (from Great Britain)|Announced our Dominance (from Great Britain)|Do not choose this option!
+2|What are 2 rights in the Declaration of Indpendence?|Life|Liberty|Luxury
+1|What is freedom of religion?|You can practice any Religion, or not practice a Religion|You must practice a Religion|The right to berate other Religions
+1|What is the economic system in the United States?|Capitalist economy|Socialist economy|Budget economy
+1|What is the 'rule of law'?|Everyone must follow the law|We make our own rules|You can choose to follow the law
+1|Name one branch or part of the government.|Legislative|Prejudical|The Ambassadors
+1|What stops one branch of government from becoming too powerful?|checks & balances|The Goveernment cannot be stopped|Guns
+1|Who is in charge of the executive branch?|The President|The Vice President|The Military
+1|Who makes federal laws?|Congress|The President|The Military|Donald Trump
+2|What are the two parts of the U.S. Congress?|The Senate|The House (of Representatives)|Parliment
+1|How many U.S. Senators are there?|One hundred (100)|Fifty (50)|Sixty nine (69)|Four hundred & twenty (420)
+1|We elect a U.S. Senator for how many years?|six (6)|seven (7)|eight(8)|five(5)
+1|Who is one of your state's U.S. Senators now?|Kirsten Gillibrand|Adam Sandler|Snoop Dogg|2pac
+1|The House of Representatives has how many voting members?|four hundred thirty-five (435)|five hundred thirty-four (534)|four hundred fifty-three (453)
+1|We elect a U.S. Representative for how many years?|two (2)|one (1)|three (3)|four (4)
+1|Name your U.S. Representative.|TO DO|TBA
+1|Who does a U.S. Senator represent?|all people of the state|all rich people in NY|Business owners
+1|Why do some states have more Representatives than other states?|(because of) the state's population|(because) some states have more money|(because) some states have more rich people
+1|We elect a President for how many years?|four (4)|five (5)|three (3)|N/A
+1|In what month do we vote for President?|November|December|January|February
+1|What is the name of the President of the United States now?|Joe Biden|Donald Trump|Barack Obama|John Cena
+1|What is the name of the Vice President of the United States now?|Kamala Harris|Hilary Clinton|Donald Trump|Kathy Hochul
+1|If the President can no longer serve, who becomes President?|The Vice President|A random US senator|The Mayor of NY
+1|If both the President and the Vice President can no longer serve, who becomes President?|The Speaker of the House|The Chief of Military|No one
+1|Who is the Commander in Chief of the military?|The President|The Vice President|Donald Trump
+1|Who signs bills to become laws?|The President|The Vice President|Donald Trump
+1|Who vetoes bills?|The President|The Vice President|Donald Trump
+1|What does the President's Cabinet do?|Advises the President|Schedule meetings for the President|Tell him what to do
+2|What are two Cabinet-level positions?|Attorney General|Vice President|Opposition leader|Speaker
+1|What does the judicial branch do?|Reviews laws|Write laws
+1|What is the highest court in the United States?|The Supreme Court|The High Court|The Magistrate's Court
+1|How many justices are on the Supreme Court?|nine (9)|ten (10)|eight (8)|seven (7)
+1|Who is the Chief Justice of the United States now?|John Roberts|John Cena|John Adams|Jane Doe
+1|Under our Constitution, some powers belong to the federal government. What is one power of the federal government?|to print money|to raise gas prices|to raise taxes
+1|Under our Constitution, some powers belong to the states. What is one power of the states?|give a driver's license|Raise the minimum wage|Provide money for the people
+1|Who is the Governor of your state now?|Kathy Hochul|Hilary Clinton|Donald Trump|Kamala Harris
+1|What is the capital of your state?|Albany|Washington DC|Manhattan
+2|What are the two major political parties in the United States?|Democratic|Republican|PPP/C|PNC/R
+1|What is the political party of the President now?|Democratic|Republican|PPP/C|PNC/R
+1|What is the name of the Speaker of the House of Representatives now?|Nancy Pelosi|Donald Trump|Kathy Hochul
+1|There are four amendments to the Constitution about who can vote. Describe one of them.|Any citizen can vote. (Women and men can vote.)|You must pay to vote|You can vote at any age
+1|What is one responsibility that is only for United States citizens?|vote in a federal election|serve in the military|pay taxes
+1|Name one right only for United States citizens.|vote in a federal election|paying taxes|religion
+2|What are two rights of everyone living in the United States?|freedom of speech|freedom of religion|tax evasion|robbing & stealing
+1|What do we show loyalty to when we say the Pledge of Allegiance?|the United States|the President|the Government
+1|What is one promise you make when you become a United States citizen?|obey the laws of the United States|avoid paying taxes|work very hard
+1|How old do citizens have to be to vote for President?|eighteen (18) and older|twenty-one (21) and older|sixty-five (65) and older
+2|What are two ways that Americans can participate in their democracy?|vote|join a political party|spend money|work hard
+1|When is the last day you can send in federal income tax forms?|April 15|January 30|March 4
+1|When must all men register for the Selective Service?|at age eighteen (18)|at age twenty-one (21)|Men do not HAVE to register for the Selective Service
+1|What is one reason colonists came to America?|freedom|money|gold
+1|Who lived in America before the Europeans arrived?|American Indians|Mexicans|Portugeuse
+1|What group of people was taken to America and sold as slaves?|Africans|Mexicans|Guyanese|Brazilians
+1|Why did the colonists fight the British?|because of high taxes (taxation without representation)|Because they wanted to|Because the British wanted money
+1|Who wrote the Declaration of Independence?|Thomas Jefferson|George Washington|Vince McMahon|Kanye West
+1|When was the Declaration of Independence adopted?|July 4, 1776|July 4, 1767|July 4, 1677
+3|There were 13 original states. Name three.|New York|New Jersey|Connecticut|Texas
+1|What happened at the Constitutional Convention?|The Constitution was written|A Party was celebrated|The Constitution was destroyed
+1|When was the Constitution written?|1787|1966|1777
+1|The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.|John Jay|Chris Rock|Kevin Hart
+1|What is one thing Benjamin Franklin is famous for?|U.S. diplomat|World's richest person|Inventing electricity
+1|Who is the 'Father of Our Country'?|George Washingtion|George Bush|Abraham Lincoln
+1|Who was the first President?|George Washingtion|George Bush|Abraham Lincoln
+1|What territory did the United States buy from France in 1803?|Louisiana|Georgia|Texas
+1|Name one war fought by the United States in the 1800s.|Civil War|Cold War|World War II
+1|Name the U.S. war between the North and the South.|Civil War|Cold War|World War II
+1|Name one problem that led to the Civil War.|Slavery|Money|Marriage
+1|What was one important thing that Abraham Lincoln did?|freed the slaves (Emancipation Proclamation)|Lowered tax rates|Raised the minimum wage
+1|What did the Emancipation Proclamation do?|Freed the slaved|Lowered tax rates|Raised the minimum wage
+1|What did Susan B. Anthony do?|Fought for women's rights|Fight for higher wages|Freed the slaves
+1|Name one war fought by the United States in the 1900s.|World War I|Cold War|Japanese War
+1|Who was President during World War I?|Woodrow Wilson|Abraham Lincoln|George Washington
+1|Who was President during the Great Depression and World War II?|Franklin Roosevelt|Abraham Lincoln|George Washington
+3|Who did the United States fight in World War II?(Select all that apply)|Japan|Germany|Italy
+1|Before he was President, Eisenhower was a general. What war was he in?|World War II|Cold War|Civil War
+1|During the Cold War, what was the main concern of the United States?|Communism|Money|Russian intel
+1|What movement tried to end racial discrimination?|civil rights (movement)|women's movement
+1|What did Martin Luther King, Jr. do?|fought for civil rights|fought for presidency|fought for the country
+1|What major event happened on September 11, 2001, in the United States?|Terrorist attacked the United States|Russia attacked the U.S.|Afghanistan attacked the U.S.
+1|Name one American Indian tribe in the United States.|Arawak|Jew|Buddhist
+1|Name one of the two longest rivers in the United States.|Mississippi|East river
+1|What ocean is on the West Coast of the United States?|Pacific Ocean|Atlantic Ocean|Indian|Arctic
+1|What ocean is on the East Coast of the United States?|Atlantic Ocean|Pacific Ocean|Indian|Arctic
+1|Name one U.S. territory.|Puerto Rico|Mexico|Alaska
+1|Name one state that borders Canada.|New York|New Jersey|Tennessee
+1|Name one state that borders Mexico|Texas|New York|Georgia
+1|What is the capital of the United States?|Washington, D.C|Albany|Manhattan
+1|Where is the Statue of Liberty?|New York|Long Island|Upstate New York
+1|Why does the flag have 13 stripes?|because there were 13 original colonies|because there were 13 original states|because there were 13 original cities
+1|Why does the flag have 50 stars?|because each star represents a state|because the U.S likes the number 50
+1|What is the name of the national anthem?|The Star-Spangled Banner|The-Spangled Star Banner
+1|When do we celebrate Independence Day?|July 4|April 1|September 11
+2|Name two national U.S. holidays.|Memorial Day|Thanksgiving|April Fools
