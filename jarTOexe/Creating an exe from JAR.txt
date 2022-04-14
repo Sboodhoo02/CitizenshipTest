@@ -9,7 +9,7 @@ The name of the file should end with the .mf suffix. It is important that the fi
 
 3). To create the JAR, type the following command:
 jar cmf manifest-file jar-file input-files
-jar cmf manifest.mf Citizenship.jar Answer.class Answer.java Exam.class Exam.java Question.class Question.java Ztest.class Ztest.java
+jar cmf manifest.mf Citizenship.jar Answer.class Answer.java Exam.class Exam.java Question.class Question.java Ztest.class Ztest.java Questions.txt Hints.txt
 
 The input-files must include any class files, images, sounds, etc. that your program uses. 
 Optionally, you can include the program's .java files in the JAR. 
