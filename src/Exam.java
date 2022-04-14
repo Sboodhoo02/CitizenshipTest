@@ -70,4 +70,16 @@ public class Exam {
         System.out.print(") ");
         System.out.println(examQuestions.get(index-1));
     }
+    public void printExamAndHints(){
+        for(int i=0; i<size; i++){
+            Question q = examQuestions.get(i);
+            if(q.getHint() != null){
+                System.out.println(i+1 + ") " + q.getQuest());
+                System.out.print("Hint: ");
+                q.printHint();
+                System.out.println();
+            }
+        }
+        System.out.println();
+    }
 }
