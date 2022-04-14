@@ -38,7 +38,7 @@ public class Ztest {
         String line = "";
         try{
             // BufferedReader br = new BufferedReader(new FileReader(p));
-            BufferedReader br = new BufferedReader(new FileReader(p+"\\Questions.txt"));
+            BufferedReader br = new BufferedReader(new FileReader(p+"\\res\\Questions.txt"));
             
 
             // parse each line
@@ -86,7 +86,7 @@ public class Ztest {
         String line = "";
         try{
             // BufferedReader br = new BufferedReader(new FileReader(p));
-            BufferedReader br = new BufferedReader(new FileReader(p+"\\Hints.txt"));
+            BufferedReader br = new BufferedReader(new FileReader(p+"\\res\\Hints.txt"));
 
             // parse each line
             while((line = br.readLine()) != null){  
