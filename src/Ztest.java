@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.module.Configuration;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -11,16 +11,20 @@ import java.util.Scanner;
 public class Ztest {
     private static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
-
-        String path = "/Users/suren/Desktop/CitizenshipTest/Questions.txt";
-        String path2 = "/Users/suren/Desktop/CitizenshipTest/Hints.txt";
+        {
+        // String path = "/Users/suren/Desktop/CitizenshipTest/Questions.txt";
+        // String path2 = "/Users/suren/Desktop/CitizenshipTest/Hints.txt";
+        
         //String path = "/Users/Think/Desktop/CitizenshipTest/Questions.txt";
         //String path2 = "/Users/Think/Desktop/CitizenshipTest/Hints.txt";
+        }
+
+        String path = new File("").getAbsolutePath();
         List<Exam> exams = new ArrayList<>();
 
 
         readInQuestions(path, exams);
-        readInHints(path2, exams);
+        readInHints(path, exams);
         // prePreparation(exams);
         
         begin(sc, exams);
@@ -33,7 +37,9 @@ public class Ztest {
         String [] values = new String[] {""};
         String line = "";
         try{
-            BufferedReader br = new BufferedReader(new FileReader(p));
+            // BufferedReader br = new BufferedReader(new FileReader(p));
+            BufferedReader br = new BufferedReader(new FileReader(p+"\\Questions.txt"));
+            
 
             // parse each line
             while((line = br.readLine()) != null){               
@@ -79,7 +85,8 @@ public class Ztest {
         List<String[]> hStrings = new ArrayList<>();
         String line = "";
         try{
-            BufferedReader br = new BufferedReader(new FileReader(p));
+            // BufferedReader br = new BufferedReader(new FileReader(p));
+            BufferedReader br = new BufferedReader(new FileReader(p+"\\Hints.txt"));
 
             // parse each line
             while((line = br.readLine()) != null){  
