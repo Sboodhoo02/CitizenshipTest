@@ -6,7 +6,8 @@ class Question{
     private String quest;
     private Answer options;
     private int numOfCorrectOptions;
-    private List<String> hint = new ArrayList<>();
+    private List<String> hint = null;
+    private boolean hasHint = false;
 
     Question(String q, String a){
         this.quest = q;
@@ -30,8 +31,11 @@ class Question{
     }
 
     public void addHint(String... hints){
+        hint = new ArrayList<>();
         Collections.addAll(hint, hints);
+        hasHint = true;
     }
+    public boolean hasHint(){ return hasHint; }
     public List<String> getHint(){ return hint; }
     public String getQuest(){ return quest; }
     public Answer getOptions(){ return options; }
@@ -60,6 +64,25 @@ class Question{
         output.append(quest);
         output.append("\n");
         output.append(options.toString());
+        return output.toString();
+    }
+    public String toString2(){
+        StringBuilder output = new StringBuilder();
+        output.append(quest);
+        output.append("\n");
+        output.append(options.toString());
+        if(hasHint){
+            output.append("# of correct options: ");
+            output.append(numOfCorrectOptions);
+            output.append("\n");
+            output.append("Hint: ");
+            output.append(hint);
+            output.append("\n");
+        }else{
+            output.append("Correct Option: ");
+            output.append(options.getCorrectOption());
+            output.append("\n");
+        }
         return output.toString();
     }
 }
