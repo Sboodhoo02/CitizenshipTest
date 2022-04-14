@@ -1,1 +1,40 @@
-
+2|sets up the government|defines the government|protects basic rights of Americans
+4|A change (to the Constitution)|An addition (to the Constitution)
+6|Speech|Religion|Assesmbly|Press|Petition the Government
+8|announced our independence (from Great Britain)| declared our independence (from Great Britain)|said that the United States is free (from Great Britain)
+9|life|Liberty|Pursuit of Happiness
+11|Capialist economy|Market Economy
+12|Everyone must follow the law|Leaders must obey the law|Government must obey the law|No one is above the law
+13|Congress|Legislative|President|Executive|The Courts|Judicial
+16|Congress|Senate & House (of Representatives)|(U.S. or national) legislature
+17|The Senate|The House (of Representatives)
+25|(because of) the state's population|(because) they have more people|(because) some states have more people
+36|Attorney General|Vice President
+42|give a driver's license|provide schooling and education|provide protection (police)
+46|Democratic|Republican
+48|Any citizen can vote. (Women and men can vote.)|Citizens eighteen (18) and older (can vote)|You don't have to pay (a poll tax) to vote
+49|serve on a jury|vote in a federal election
+51|freedom of expression|freedom of speech|freedom of religion|the right to bear arms
+52|the United States|the flag
+53|obey the laws of the United States|give up loyalty to other countries|serve in the U.S. military (if needed)
+55|vote|join a political party|help with a campaign
+57|at age eighteen (18)|between eighteen (18) and twenty-six (26)
+58|freedom|political liberty|escape persecution
+59|American Indians|Native Americans
+61|because of high taxes (taxation without representation)|because the British army stayed in their houses (boarding| quartering)|because they didn?t have self-government
+64|New York|New Jersey|Connecticut|North Carolina|South Carolina
+67|John Jay|James Madison|Alexander Hamilton
+68|U.S. diplomat|oldest member of the Constitutional Convention|first Postmaster General of the United States
+72|Civil War|Cold War|Spanish-American War
+73|the Civil War|the War between the States
+74|Slavery|Economic Resasons|States' rights
+75|freed the slaves (Emancipation Proclamation)|saved (or preserved) the Union|led the United States during the Civil War
+78|World War I|World War II|Korean War|Veitnam War|(Persian) Gulf War
+81|Japan|Germany|Italy
+85|fought for civil rights|worked for equality for all Americans
+87|Arawak|Cheyenne|Shawnee|Mohegan|Huron
+88|Missouori|Mississippi
+91|Puerto Rico|U.S. Virgin Islands|American Samoa|Northern Mariana Islands|Guam
+92|New York|Alaska|New Hampshire
+93|texas|California|Arizona
+100|New Years's Day|President's Day|memorial Day|Independence Day|Labor Day|Christmas|Thanksgiving
