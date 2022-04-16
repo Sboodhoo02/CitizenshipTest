@@ -20,7 +20,7 @@
 1|Who is one of your state's U.S. Senators now?|Kirsten Gillibrand|Adam Sandler|Snoop Dogg|2pac
 1|The House of Representatives has how many voting members?|four hundred thirty-five (435)|five hundred thirty-four (534)|four hundred fifty-three (453)
 1|We elect a U.S. Representative for how many years?|two (2)|one (1)|three (3)|four (4)
-1|Name your U.S. Representative.|TO DO|TBA
+1|Name your U.S. Representative.|Alexandria Ocasio-Cortez (AOC)|Kathy Hochul|Eric Adams|
 1|Who does a U.S. Senator represent?|all people of the state|all rich people in NY|Business owners
 1|Why do some states have more Representatives than other states?|(because of) the state's population|(because) some states have more money|(because) some states have more rich people
 1|We elect a President for how many years?|four (4)|five (5)|three (3)|N/A
