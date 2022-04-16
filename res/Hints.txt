@@ -8,10 +8,10 @@
 13|Congress|Legislative|President|Executive|The Courts|Judicial
 16|Congress|Senate & House (of Representatives)|(U.S. or national) legislature
 17|The Senate|The House (of Representatives)
+23|Alexandria Ocasio-Cortez (AOC)|Tom Suozzi|Claudia Tenney
 25|(because of) the state's population|(because) they have more people|(because) some states have more people
 36|Attorney General|Vice President
 42|give a driver's license|provide schooling and education|provide protection (police)
-46|Democratic|Republican
 48|Any citizen can vote. (Women and men can vote.)|Citizens eighteen (18) and older (can vote)|You don't have to pay (a poll tax) to vote
 49|serve on a jury|vote in a federal election
 51|freedom of expression|freedom of speech|freedom of religion|the right to bear arms
@@ -25,7 +25,7 @@
 64|New York|New Jersey|Connecticut|North Carolina|South Carolina
 67|John Jay|James Madison|Alexander Hamilton
 68|U.S. diplomat|oldest member of the Constitutional Convention|first Postmaster General of the United States
-72|Civil War|Cold War|Spanish-American War
+72|Civil War|Mexican-American War|Spanish-American War|War of 1812
 73|the Civil War|the War between the States
 74|Slavery|Economic Resasons|States' rights
 75|freed the slaves (Emancipation Proclamation)|saved (or preserved) the Union|led the United States during the Civil War
