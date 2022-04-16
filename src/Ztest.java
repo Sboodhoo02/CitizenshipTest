@@ -22,11 +22,10 @@ public class Ztest {
         String path = new File("").getAbsolutePath();
         List<Exam> exams = new ArrayList<>();
 
-
+        
         readInQuestions(path, exams);
         readInHints(path, exams);
         // prePreparation(exams);
-        
         begin(sc, exams);
     }
     public static void readInQuestions(String p, List<Exam> exams){
@@ -510,7 +509,7 @@ public class Ztest {
                 System.out.println("Correct");
             }
             else{
-                if(!(q.getHint().isEmpty())){
+                if(q.hasHint()){
                     System.out.print("Hint: ");
                     q.printHint();
                     System.out.println();
@@ -640,8 +639,9 @@ public class Ztest {
         System.out.print("Select answer: ");
         String UserInput = s.nextLine();
         System.out.println();
-        while(!(UserInput.equals("e"))){
+        while(!(UserInput.equals("e") || (UserInput.equals("E")))){
             switch (UserInput) {
+                case "A":
                 case "a":
                     Exam e = exams.get(0);
                     e.printExamQuestions();
@@ -666,36 +666,50 @@ public class Ztest {
                         }
                     }
                     break;
+                case "B":
                 case "b":
                     e = exams.get(0);
                     e.shuffleExamQuestions();
                     e.printExamQuestions(10);
                     System.out.print("What question do you want the answer(s) for? ");
                     qHolder = abc.nextInt();
-                    if(qHolder == -1) break;
+                    while(qHolder < -1 || qHolder > 10){
+                        System.out.print("What question do you want the answer(s) for? ");
+                        qHolder = abc.nextInt();    
+                    }
                     q = e.getExamQuestion(qHolder-1);
                     //System.out.println(gradeQuestion(s, q));
                     while(qHolder > 0 && qHolder < 11){
                         if(q.hasMultipleAnswers()){
                             System.out.println(q.getCorrectOptions());
                             System.out.print("What question do you want the answer(s) for? ");
-                            qHolder = abc.nextInt();
-                            if(qHolder == -1) break;
+                            qHolder = abc.nextInt();   
+                            while(qHolder < -1 || qHolder > 10){
+                                System.out.print("What question do you want the answer(s) for? ");
+                                qHolder = abc.nextInt();    
+                            }
+                            if(qHolder == -1 || qHolder == 0) break;
                             q = e.getExamQuestion(qHolder-1);
                         }else{
                             System.out.println(q.getCorrectOption());
                             System.out.print("What question do you want the answer(s) for? ");
                             qHolder = abc.nextInt();
-                            if(qHolder == -1) break;
+                            while(qHolder < -1 || qHolder > 10){
+                                System.out.print("What question do you want the answer(s) for? ");
+                                qHolder = abc.nextInt();    
+                            }
+                            if(qHolder == -1 || qHolder == 0) break;
                             q = e.getExamQuestion(qHolder-1);
                         }
                     }
-                    break;
+                    if(qHolder == -1 || qHolder == 0) break;
+                    break;         
+                case "C":
                 case "c":
                     score = administerExam(exams.get(0), s, 10);
                     System.out.println("Your score: " + score + "/10");
                     break;
-                
+                case "D":
                 case "d":
                     break;
                 default:
