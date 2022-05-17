@@ -246,8 +246,13 @@ public class Ztest {
         System.out.println("*\t\t\t\t\t\t *");
         System.out.println("**************************************************");
     }
+    public static int askQuestionAndGrabInput(String str, Scanner s){
+        System.out.print(str);
+        return s.nextInt();
+    }
     public static void begin(Scanner s, List<Exam> exams){
         Scanner abc = new Scanner(System.in);
+        String str = "What question do you want the answer(s) for? ";
         //int size = exams.size();
         int score;
         int qHolder;
@@ -287,14 +292,13 @@ public class Ztest {
                     e = exams.get(0);
                     e.shuffleExamQuestions();
                     e.printExamQuestions(10);
-                    System.out.print("What question do you want the answer(s) for? ");
-                    qHolder = abc.nextInt();
-                    while(qHolder < 1 || qHolder > 10){
-                        System.out.print("What question do you want the answer(s) for? ");
-                        qHolder = abc.nextInt();    
+                    qHolder = askQuestionAndGrabInput(str, abc);
+                    if(qHolder == 0) break;
+                    while(qHolder < 0 || qHolder > 10){ 
+                        qHolder = askQuestionAndGrabInput(str, abc);                       
                     }
+                    if(qHolder == 0) break;
                     q = e.getExamQuestion(qHolder-1);
-                    //System.out.println(gradeQuestion(s, q));
                     while(qHolder > 0 && qHolder < 11){
                         if(q.hasMultipleAnswers()){
                             System.out.println(q.getCorrectOptions());
@@ -308,17 +312,15 @@ public class Ztest {
                             q = e.getExamQuestion(qHolder-1);
                         }else{
                             System.out.println(q.getCorrectOption());
-                            System.out.print("What question do you want the answer(s) for? ");
-                            qHolder = abc.nextInt();
-                            while(qHolder < -1 || qHolder > 10){
-                                System.out.print("What question do you want the answer(s) for? ");
-                                qHolder = abc.nextInt();    
+                            qHolder = askQuestionAndGrabInput(str, abc);
+                            while(qHolder < 0 || qHolder > 10){
+                                qHolder = askQuestionAndGrabInput(str, abc);    
                             }
-                            if(qHolder == -1 || qHolder == 0) break;
+                            if(qHolder == 0) break;
                             q = e.getExamQuestion(qHolder-1);
                         }
                     }
-                    if(qHolder == -1 || qHolder == 0) break;
+                    if(qHolder == 0) break;
                     break;         
                 case "C":
                 case "c":
